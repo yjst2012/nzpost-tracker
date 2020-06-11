@@ -1,0 +1,77 @@
+{  
+    "success":true,
+    "results":{  
+        "tracking_reference":"00393311680005810444",
+        "message_id":"46384aa1-54ae-4097-9f59-b321a80e7c0e",
+        "message_datetime":"2015-10-08T12:12:54.0000000Z",
+        "service":"",
+        "carrier":"",
+        "tracking_events":[  
+            {  
+                "tracking_reference":"00393311680005810444",
+                "event_edifact_code":"13",
+                "source":"CME",
+                "seqref":"2631897613",
+                "status_description":"Acceptance",
+                "event_description":"Your item was picked up by our courier based at Penrose.",
+                "event_datetime":"2015-06-24T10:05:13",
+                "signed_by":{  
+                    "name":"",
+                    "signature":""
+                }
+            },
+            {  
+                "tracking_reference":"00393311680005810444",
+                "event_edifact_code":"580",
+                "source":"CME",
+                "seqref":"2632081694",
+                "status_description":"Sort To",
+                "event_description":"Item has been sorted to a location in the depot",
+                "event_datetime":"2015-06-24T11:06:07",
+                "signed_by":{  
+                    "name":"",
+                    "signature":""
+                }
+            },
+            {  
+                "tracking_reference":"00393311680005810444",
+                "event_edifact_code":"567",
+                "source":"CME",
+                "seqref":"2632113942",
+                "status_description":"Security",
+                "event_description":"Item was identified as high value.",
+                "event_datetime":"2015-06-24T11:55:02",
+                "signed_by":{  
+                    "name":"",
+                    "signature":""
+                }
+            },
+            {  
+                "tracking_reference":"00393311680005810444",
+                "event_edifact_code":"32",
+                "source":"CME",
+                "seqref":"2632175995",
+                "status_description":"Out for Delivery",
+                "event_description":"Your item was processed for delivery.",
+                "event_datetime":"2015-06-24T13:25:40",
+                "signed_by":{  
+                    "name":"",
+                    "signature":""
+                }
+            },
+            {  
+                "tracking_reference":"00393311680005810444",
+                "event_edifact_code":"22",
+                "source":"CME",
+                "seqref":"2632230597",
+                "status_description":"Delivery",
+                "event_description":"Your item was delivered by our courier based at Sunnynook -Auckland. Thank you for using CourierPost",
+                "event_datetime":"2015-06-24T14:19:00",
+                "signed_by":{  
+                    "name":"EHMOE TABILI",
+                    "signature":"/zwxQS1EK0YpSChMJU4jMUQvRS1IKkonTCROIVAeUxtUGVYWWBNZEFsOWxBZElcVVRdUGlEeTyJNJUspSS1HMUU1RDhDO0E9QEBAQj9DQUFDPkU7RzhJNko3SDpGPEU/Q0JBRUBIPks8TjtSOVQ3VzZZNls1XTVfNV43YDdjNmgzajNsMm8xcTBzMHYveC94MXczdjV5Nns2fTaANoI4hDiGN4g2ijWMNI8zkjKWMJouniyjKqgorSayJLciuyDAH8Qexx3KHcwdyx/IIcUiwCS7JrUoryqoLKAumDCRMok0gTV6N3I3bDhmOGE4XTdZN1c2VTRWMlgyWzFeMWEyZTNpNWw3cDl0PHc+ekF9RH9GgkmDS4ROhVCHUohUiVM="
+                }
+            }
+        ]
+    }
+}

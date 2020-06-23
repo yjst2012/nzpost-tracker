@@ -22,7 +22,7 @@ func TestTrackingOrderStatusSuccess(t *testing.T) {
 	nc.Fail = false
 	resp, err := nc.Track(ref)
 	if err != nil {
-		t.Errorf("failed to track parcel with nzpost, err: %s", err.Error())
+		t.Errorf("failed to track parcel with nzpost false, err: %s", err.Error())
 	}
 	spew.Dump(*resp)
 }
@@ -32,7 +32,7 @@ func TestTrackingOrderStatusFail(t *testing.T) {
 	nc.Fail = true
 	resp, err := nc.Track(ref)
 	if err != nil {
-		t.Errorf("failed to track parcel with nzpost, err: %s", err.Error())
+		t.Errorf("failed to track parcel with nzpost true, err: %s", err.Error())
 	}
 	spew.Dump(*resp)
 }

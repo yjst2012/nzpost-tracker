@@ -36,3 +36,13 @@ func TestTrackingOrderStatusFail(t *testing.T) {
 	}
 	spew.Dump(*resp)
 }
+
+func TestTrackingOrderStatusSuccessNew(t *testing.T) {
+	ref := "00393311680005810"
+	nc.Fail = false
+	resp, err := nc.Track(ref)
+	if err != nil {
+		t.Errorf("failed to track parcel with nzpost false, err: %s", err.Error())
+	}
+	spew.Dump(*resp)
+}

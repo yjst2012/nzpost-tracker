@@ -18,7 +18,7 @@ func init() {
 }
 
 func TestTrackingOrderStatusSuccess(t *testing.T) {
-	ref := "00393311680005810444"
+	ref := "00393311680005810441"
 	nc.Fail = false
 	resp, err := nc.Track(ref)
 	if err != nil {
